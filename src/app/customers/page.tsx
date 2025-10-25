@@ -9,7 +9,7 @@ export default function Customers() {
     const [customerEmail, setCustomerEmail] = useState<string>("");
     const [customerAddress, setCustomerAddress] = useState<string>("");
     const [loading, setLoading] = useState<boolean>(false);
-    const [customers, setCustomers] = useState([])
+    const [customers, setCustomers] = useState([{'id':12,'name':'Ciga Igbo','email':'ciag@igbo.com'}])
 
     const handleAddCustomer = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
