@@ -1,8 +1,8 @@
 
 interface Customer {
      name: string;
-    email: string;
-    id: number;
+     email: string;
+     id: number;
 }
 
 export default function CustomersTable({

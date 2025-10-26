@@ -28,6 +28,13 @@ export default function SideNav() {
             </Link>
 
             <Link
+            href={'/dashboard'}
+            className='flex items-baseline hover:bg-blue-100 rounded-sm p-2'
+            >
+            <IoSettings className = 'mr-2 text-blue-500'/>Dashboard
+            </Link>
+
+            <Link
             href={'/settings'}
             className='flex items-baseline hover:bg-blue-100 rounded-sm p-2'
             >

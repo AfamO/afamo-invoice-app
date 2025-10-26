@@ -88,7 +88,7 @@ export default function Settings () {
                     />
 
                     <label htmlFor='accountNumber' className='text-sm'>
-                        Account Name
+                        Account Number
                     </label>
                     <input
                     type = 'number'
@@ -97,7 +97,7 @@ export default function Settings () {
                     className = 'border-[1px] p-2 rounded mb-3'
                     required
                     value={inputBankInfo.account_number}
-                    onChange={(e) => setInputBankInfo({...inputBankInfo, account_number:parseInt(e.target.value)})}
+                    onChange={(e) => setInputBankInfo({...inputBankInfo, account_number:Number(e.target.value)})}
                     />
 
                     <label htmlFor='bankName' className='text-sm'>
